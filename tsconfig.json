@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "outDir": "dist",
+      "baseUrl": ".",
+      "sourceMap": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true
+    },
+    "prestart": "npm run build"
+  }
